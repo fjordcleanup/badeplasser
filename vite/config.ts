@@ -2,6 +2,7 @@ import { preact } from '@preact/preset-vite'
 import { defineConfig, type PluginOption } from 'vite'
 import { replaceInIndex } from './replaceInIndex.ts'
 import { homepage, version } from './siteInfo.ts'
+import { spaFallback } from './spaFallback.ts'
 
 export const createConfig = ({
 	plugins,
@@ -30,6 +31,7 @@ export const createConfig = ({
 			replaceInIndex({
 				version,
 			}),
+			spaFallback(),
 			...(plugins ?? []),
 		],
 		preview: {

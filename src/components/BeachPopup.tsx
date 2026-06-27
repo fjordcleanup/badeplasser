@@ -1,4 +1,4 @@
-import { QUALITY_PRESENTATION, ratingOf } from '#badeplasser/quality.ts'
+import { markerRating, QUALITY_PRESENTATION } from '#badeplasser/quality.ts'
 import type { Badeplass } from '#badeplasser/schema.ts'
 import { formatDistanceToNowStrict } from 'date-fns'
 import { nb as nbLocale } from 'date-fns/locale'
@@ -17,7 +17,11 @@ const Measured = ({ iso }: { iso: string }) => {
 
 /** The detail card shown when a bathing spot marker is opened. */
 export const BeachPopup = ({ beach }: { beach: Badeplass }) => {
-	const rating = ratingOf(beach.waterQuality)
+	// Color the badge with the same rating the map marker uses, so a stale
+	// reading shows a gray badge that matches its gray pin instead of a green/red
+	// one. The original label (and «sist målt» line below) still convey what the
+	// last reading was and how old it is.
+	const rating = markerRating(beach.waterQuality)
 	const { color, label } = QUALITY_PRESENTATION[rating]
 	const measuredAt = beach.waterQuality?.measuredAt ?? null
 

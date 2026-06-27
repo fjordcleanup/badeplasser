@@ -2,7 +2,6 @@ import {
 	LEGEND_ORDER,
 	markerRating,
 	QUALITY_PRESENTATION,
-	ratingOf,
 } from '#badeplasser/quality.ts'
 import type { WaterQualityRating } from '#badeplasser/schema.ts'
 import { useBadeplasser } from '#context/Badeplasser.tsx'
@@ -64,9 +63,12 @@ export const BadeplasserMarkers = ({ map }: { map: L.Map }) => {
 			render(<BeachPopup beach={beach} />, container)
 			popupContainers.push(container)
 
+			// Derive the icon and the tooltip from the same rating so a grayed-out
+			// (stale or unmeasured) pin never claims a quality like «God».
+			const rating = markerRating(beach.waterQuality)
 			L.marker([beach.location.lat, beach.location.lng], {
-				icon: qualityIcon(markerRating(beach.waterQuality)),
-				title: `${beach.name} – ${beach.waterQuality?.label ?? QUALITY_PRESENTATION[ratingOf(beach.waterQuality)].label}`,
+				icon: qualityIcon(rating),
+				title: `${beach.name} – ${QUALITY_PRESENTATION[rating].label}`,
 				alt: beach.name,
 			})
 				.bindPopup(container, { minWidth: 240, maxWidth: 320 })
