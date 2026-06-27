@@ -72,38 +72,61 @@ const main = async (): Promise<void> => {
 	console.log(`Found ${listings.length} bathing spots.`)
 
 	const missingCoordinates: string[] = []
+	const failed: string[] = []
 
-	const badeplasser = await mapPool(
-		listings,
-		async (listing, i): Promise<Badeplass> => {
-			const html = await fetchDetail(listing.url)
-			const detail = parseDetailPage(html)
+	// A single failed fetch/parse must only drop that one spot — not abort the
+	// whole run and leave the dataset unwritten. Failures are collected and
+	// reported below (mirroring update-water-quality.ts).
+	const badeplasser = (
+		await mapPool(
+			listings,
+			async (listing, i): Promise<Badeplass | null> => {
+				try {
+					const html = await fetchDetail(listing.url)
+					const detail = parseDetailPage(html)
 
-			const override = COORDINATE_OVERRIDES[listing.id]
-			const location = override ?? (await geocode(listing.name))
-			if (location === null) missingCoordinates.push(listing.name)
+					const override = COORDINATE_OVERRIDES[listing.id]
+					const location = override ?? (await geocode(listing.name))
+					if (location === null) missingCoordinates.push(listing.name)
 
-			console.log(
-				`  [${i + 1}/${listings.length}] ${listing.name} — ` +
-					`${detail.measurements.length} measurement(s), ` +
-					`${location === null ? 'NO COORDINATES' : 'located'}`,
-			)
-			await sleep(100)
+					console.log(
+						`  [${i + 1}/${listings.length}] ${listing.name} — ` +
+							`${detail.measurements.length} measurement(s), ` +
+							`${location === null ? 'NO COORDINATES' : 'located'}`,
+					)
 
-			return {
-				id: listing.id,
-				name: listing.name,
-				url: listing.url,
-				location: location ?? { lat: 0, lng: 0 },
-				facilities: detail.facilities,
-				waterQuality: summarize(detail.measurements),
-				...(detail.temperature !== undefined
-					? { temperature: detail.temperature }
-					: {}),
-			}
-		},
-		CONCURRENCY,
-	)
+					return {
+						id: listing.id,
+						name: listing.name,
+						url: listing.url,
+						location: location ?? { lat: 0, lng: 0 },
+						facilities: detail.facilities,
+						waterQuality: summarize(detail.measurements),
+						...(detail.temperature !== undefined
+							? { temperature: detail.temperature }
+							: {}),
+					}
+				} catch (err) {
+					failed.push(listing.name)
+					console.warn(
+						`  ! ${listing.name}: ${(err as Error).message} (skipped)`,
+					)
+					return null
+				} finally {
+					await sleep(100)
+				}
+			},
+			CONCURRENCY,
+		)
+	).filter((beach): beach is Badeplass => beach !== null)
+
+	// Refuse to overwrite the dataset with nothing: an all-failed run would
+	// otherwise wipe the map.
+	if (badeplasser.length === 0)
+		throw new Error(
+			`All ${listings.length} bathing spot(s) failed to fetch; ` +
+				`leaving ${OUTPUT} unchanged.`,
+		)
 
 	const dataset: Dataset = {
 		source: BADEPLASSER_PAGE,
@@ -118,7 +141,15 @@ const main = async (): Promise<void> => {
 	}
 
 	writeFileSync(OUTPUT, JSON.stringify(dataset, null, '\t') + '\n')
-	console.log(`\nWrote ${badeplasser.length} bathing spots to ${OUTPUT}`)
+	console.log(
+		`\nWrote ${badeplasser.length} bathing spots to ${OUTPUT}` +
+			`${failed.length > 0 ? ` (${failed.length} skipped)` : ''}`,
+	)
+	if (failed.length > 0) {
+		console.warn(
+			`\n⚠ ${failed.length} spot(s) failed to fetch and were skipped:\n  - ${failed.join('\n  - ')}`,
+		)
+	}
 	if (missingCoordinates.length > 0) {
 		console.warn(
 			`\n⚠ ${missingCoordinates.length} spot(s) need manual coordinates ` +

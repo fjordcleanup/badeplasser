@@ -77,6 +77,19 @@ const main = async (): Promise<void> => {
 		CONCURRENCY,
 	)
 
+	// Don't touch the dataset when nothing could be refreshed: bumping `updated`
+	// (and rewriting the file) on an all-failed run would open a PR / cut a patch
+	// release that only changes the timestamp, falsely implying a fresh update.
+	if (updated === 0) {
+		console.warn(
+			`\nNo spots were updated (${failed} failed); leaving ${FILE} unchanged.`,
+		)
+		// Signal failure so a scheduled run surfaces the problem instead of
+		// looking like a successful no-op refresh.
+		process.exitCode = 1
+		return
+	}
+
 	dataset.updated = new Date().toISOString()
 
 	if (!Value.Check(DatasetSchema, dataset)) {
