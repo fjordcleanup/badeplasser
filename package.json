@@ -1,0 +1,86 @@
+{
+  "name": "@fjordcleanup/badeplasser",
+  "version": "0.0.0-development",
+  "description": "Web application to view and report trash to Fjord CleanUP",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjordcleanup/badeplasser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fjordcleanup/badeplasser/issues"
+  },
+  "homepage": "https://badeplasser.fjordcleanup.org",
+  "author": "Markus Tacker <m@coderbyheart.com> | https://coderbyheart.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "node --max_old_space_size=8192 ./node_modules/vite/bin/vite.js build --emptyOutDir",
+    "prepare": "husky",
+    "test": "node --no-warnings --experimental-transform-types --test \"!(node_modules)/**/*.spec.ts\"",
+    "test:watch": "node --no-warnings --experimental-transform-types --test --watch \"!(node_modules)/**/*.spec.ts\"",
+    "badeplasser:generate": "node --no-warnings --experimental-transform-types scripts/generate-badeplasser.ts",
+    "badeplasser:update": "node --no-warnings --experimental-transform-types scripts/update-water-quality.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "0.34.49",
+    "@typescript/native-preview": "^7.0.0-dev.20260627.2",
+    "bootstrap": "5.3.8",
+    "classnames": "2.5.1",
+    "date-fns": "4.4.0",
+    "leaflet": "1.9.4",
+    "lucide-preact": "1.21.0",
+    "preact": "10.29.3",
+    "preact-router": "4.1.2",
+    "proj4": "2.20.9",
+    "ulidx": "2.4.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-import-assertions": "7.29.7",
+    "@bifravst/cloudformation-helpers": "9.1.1",
+    "@bifravst/eslint-config-typescript": "7.0.25",
+    "@bifravst/prettier-config": "1.1.17",
+    "@commitlint/config-conventional": "21.1.0",
+    "@preact/preset-vite": "2.10.5",
+    "@types/leaflet": "1.9.21",
+    "@types/node": "26.0.1",
+    "commitlint": "21.1.0",
+    "glob": "13.0.6",
+    "handlebars": "4.7.9",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.8",
+    "typescript": "6.0.3",
+    "vite": "8.1.0"
+  },
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11.7.0 <12"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "*.{md,json,yaml,yml,html,css}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": "@bifravst/prettier-config",
+  "release": {
+    "branches": [
+      "saga"
+    ],
+    "remoteTags": true,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/github",
+        {
+          "successCommentCondition": false,
+          "failTitle": false
+        }
+      ]
+    ]
+  }
+}

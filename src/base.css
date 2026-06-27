@@ -1,0 +1,29 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+
+:root {
+  --escooter-color: #64ccf5;
+  --escooter-color-text: rgb(50, 50, 50);
+  --litter-color: #840cc9;
+  --litter-color-text: white;
+  --bulk-color: #ffd900;
+  --bulk-color-text: rgb(50, 50, 50);
+  --other-color: #df3030;
+  --other-color-text: white;
+  --fjordcleanup-color: #ff6100;
+  --fjordcleanup-color-text: white;
+}
+
+.btn-fjordcleanup {
+  background-color: var(--fjordcleanup-color);
+  color: var(--fjordcleanup-color-text);
+}
+
+.btn-fjordcleanup:hover {
+  background-color: var(--fjordcleanup-color-text);
+  color: var(--fjordcleanup-color);
+  border-color: var(--fjordcleanup-color);
+}
+
+.color-fjordcleanup {
+  color: var(--fjordcleanup-color);
+}

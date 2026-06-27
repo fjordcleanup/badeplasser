@@ -1,0 +1,1403 @@
+{
+  "source": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/",
+  "updated": "2026-06-27T21:57:01.524Z",
+  "badeplasser": [
+    {
+      "id": "askevannet",
+      "name": "Askevannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/askevannet/",
+      "location": {
+        "lat": 59.83202,
+        "lng": 10.89963
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "badedammen-pa-grorud",
+      "name": "Badedammen på Grorud",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/badedammen-pa-grorud/",
+      "location": {
+        "lat": 59.97218,
+        "lng": 10.88157
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 HC-toalett (tørrklosett) er åpent hele året.",
+            "Mobil kiosk.",
+            "Demning med stige ned til vannet."
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Badedammen, Grorud",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "badstuene-pa-langkaia",
+      "name": "Badstuene på Langkaia",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/badstuene-pa-langkaia/",
+      "location": {
+        "lat": 59.90799862735597,
+        "lng": 10.74937049962212
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Langkaia",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-05-21T00:00:00+02:00"
+      }
+    },
+    {
+      "id": "badstuene-pa-sukkerbiten",
+      "name": "Badstuene på Sukkerbiten",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/badstuene-pa-sukkerbiten/",
+      "location": {
+        "lat": 59.904515329969016,
+        "lng": 10.752864685563512
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Sukkerbiten",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-05-21T00:00:00+02:00"
+      }
+    },
+    {
+      "id": "bekkelagsbadet",
+      "name": "Bekkelagsbadet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/bekkelagsbadet/",
+      "location": {
+        "lat": 59.88021352825285,
+        "lng": 10.76524095020566
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Bekkelagsbadet",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "bekkensten",
+      "name": "Bekkensten",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/bekkensten/",
+      "location": {
+        "lat": 59.79180216470056,
+        "lng": 10.733294364394851
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Toaletter, åpne i sommersesongen, ca. 15. april til 15. oktober. 2 toaletter",
+            "HC-toaletter"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Bekkensten",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "bestemorstranda",
+      "name": "Bestemorstranda",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/bestemorstranda/",
+      "location": {
+        "lat": 59.82703572770427,
+        "lng": 10.759248308895613
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "5 toaletter (utedoer) er åpne i sommersesongen, ca. 15.mai til 15. september.",
+            "Brygge",
+            "Bord og benker"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Bestemorstranda, Oppgård",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "bogstadvannet",
+      "name": "Bogstadvannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/bogstadvannet/",
+      "location": {
+        "lat": 59.9718,
+        "lng": 10.61783
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "6 toaletter (vannklosetter)",
+            "1 HC-toalett (tørrklosett)",
+            "urinaler",
+            "3 badebrygger",
+            "Badeplassen tilfredsstiller kravene til universell tilgjengelighet (tilpasset alle) og har blant annet toalett, baderampe og parkering for bevegelseshemmede.",
+            "Sykkelparkering"
+          ]
+        }
+      ],
+      "waterQuality": null
+    },
+    {
+      "id": "brekkedammen-ved-frysja",
+      "name": "Brekkedammen ved Frysja",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/brekkedammen-ved-frysja/",
+      "location": {
+        "lat": 59.9667474,
+        "lng": 10.7767656
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "5 toaletter (utedoer) er åpne i sommersesongen, ca. 15.mai til 15. september.",
+            "Butikk 5 minutter unna.",
+            "Turveien fra Maridalsvannet til Bjørvika går like ved.",
+            "Benker på et underlag av granittheller.",
+            "Brekkedammen er bra tilrettelagt for bevegelseshemmede."
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Brekkedammen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 20,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "bygdoy-sjobad",
+      "name": "Bygdøy sjøbad",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/bygdoy-sjobad/",
+      "location": {
+        "lat": 59.91114,
+        "lng": 10.66628
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Bygdøy Sjøbad",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 16.2,
+        "measuredAt": "2026-06-12T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "bantjern",
+      "name": "Båntjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/bantjern/",
+      "location": {
+        "lat": 59.96484,
+        "lng": 10.7062
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "eriksvannet",
+      "name": "Eriksvannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/eriksvannet/",
+      "location": {
+        "lat": 59.83509,
+        "lng": 10.93472
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "fiskevollbukta",
+      "name": "Fiskevollbukta",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/fiskevollbukta/",
+      "location": {
+        "lat": 59.84255,
+        "lng": 10.77333
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Fiskevollbukta",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "fri-elvaga",
+      "name": "Fri-Elvåga",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/fri-elvaga/",
+      "location": {
+        "lat": 59.8658,
+        "lng": 10.90999
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "gressholmen",
+      "name": "Gressholmen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/gressholmen/",
+      "location": {
+        "lat": 59.884005586620844,
+        "lng": 10.723035329621288
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Kiosk, kafé og restaurant på Gressholmen kro .",
+            "På Rambergøya badeplass er to utedoer åpne i sommersesongen.",
+            "Flere fine, men relativt lite tilrettelagte badeplasser.",
+            "Heggholmen fyr er et av de eldste fyrene i Indre Oslofjord."
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Gressholmen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "grinidammen",
+      "name": "Grinidammen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/grinidammen/",
+      "location": {
+        "lat": 59.95022134260352,
+        "lng": 10.634437972827193
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Grinidammen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 20,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "griseputten",
+      "name": "Griseputten",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/griseputten/",
+      "location": {
+        "lat": 59.82961,
+        "lng": 10.93098
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "hauktjern",
+      "name": "Hauktjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/hauktjern/",
+      "location": {
+        "lat": 59.89432,
+        "lng": 10.88572
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "hovedoya",
+      "name": "Hovedøya",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/hovedoya/",
+      "location": {
+        "lat": 59.893837668510734,
+        "lng": 10.726945812804814
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "offentlig badestrand i Lindøysund",
+            "fem toaletter og ett HC-toalett er åpne i sommersesongen",
+            "det er tilrettelagt for bading og soling flere steder på øya",
+            "stor gresslette til lek og aktivitet",
+            "kulturminner, blant annet klosterruiner fra middelalderen",
+            "kiosk og restaurant i Klosterkroa"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Hovedøya",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "huk",
+      "name": "Huk",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/huk/",
+      "location": {
+        "lat": 59.89536,
+        "lng": 10.67666
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": ["Toaletter", "7 toaletter", "1 HC-toalett", "3 urinaler"]
+        },
+        {
+          "heading": "Andre fasiliteter",
+          "items": [
+            "Volleyballbane",
+            "To fastgriller (lette å rengjøre, trenger ikke tømmes for aske og er klare til bruk på 10 minutter, grillkull fås kjøpt i kiosken). Det er ikke tillatt å grille på fjellgrunn på Huk.",
+            "Naturiststrand rett ved"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Huk, ved restauranten",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "hvervenbukta",
+      "name": "Hvervenbukta",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/hvervenbukta/",
+      "location": {
+        "lat": 59.83307,
+        "lng": 10.77133
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Toaletter, åpne i sommersesongen ca. 15. mai til 15. september. 5 vannklosetter",
+            "1 HC-toalett (vannklosett)",
+            "urinaler"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Hvervenbukta",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 20,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "hydrostranda",
+      "name": "Hydrostranda",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/hydrostranda/",
+      "location": {
+        "lat": 59.91433813218608,
+        "lng": 10.657209229758738
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Hydrostranda",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "haoya",
+      "name": "Håøya",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/haoya/",
+      "location": {
+        "lat": 59.68329,
+        "lng": 10.58798
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "badeplasser med sand og svaberg",
+            "toaletter",
+            "kontrastfylt natur og rikt planteliv",
+            "store gressletter beregnet for telting",
+            "historiske bunkere og kanonhus på Søndre Håøya",
+            "tre kystledhytter som kan leies av alle på www.oslofjorden.org",
+            "fortøyningsbrygger",
+            "messa (stengt for rehabilitering i 2017)"
+          ]
+        }
+      ],
+      "waterQuality": null
+    },
+    {
+      "id": "ingierstrand",
+      "name": "Ingierstrand",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/ingierstrand/",
+      "location": {
+        "lat": 59.81823669060263,
+        "lng": 10.74973069225424
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Stupetårn",
+            "Mobile toaletter (vannklosetter) er åpne i sommersesongen, ca. 15. mai til 15. september.",
+            "Baderampe",
+            "Badebrygger",
+            "Benker",
+            "Avfallsbeholdere",
+            "Sykkelparkering"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Ingierstrand, Oppgård",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "isdammen-pa-arvoll",
+      "name": "Isdammen på Årvoll",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/isdammen-pa-arvoll/",
+      "location": {
+        "lat": 59.95591,
+        "lng": 10.82364
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Isdammen, Årvoll",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "kapteinsputten",
+      "name": "Kapteinsputten",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/kapteinsputten/",
+      "location": {
+        "lat": 59.96984,
+        "lng": 10.81453
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Kapteinsputten",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "katten",
+      "name": "Katten",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/katten/",
+      "location": {
+        "lat": 59.85531723306611,
+        "lng": 10.7830515097613
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Toaletter, åpne i sommersesongen, ca. 15. mai til 15. september Fire toaletter",
+            "Et HC-toalett"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Katten",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "kroktjern",
+      "name": "Kroktjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/kroktjern/",
+      "location": {
+        "lat": 59.90459,
+        "lng": 10.88557
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "langvannet",
+      "name": "Langvannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/langvannet/",
+      "location": {
+        "lat": 59.8557107,
+        "lng": 10.8986851
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "langoyene",
+      "name": "Langøyene",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/langoyene/",
+      "location": {
+        "lat": 59.87066788690007,
+        "lng": 10.717818225452579
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Ny, stor badestrand",
+            "Badeanlegg med HC-rampe, badebinge og bølgebryter",
+            "En rekke nye toalettbygg, med HC-toaletter",
+            "Muligheter for telting på nordsiden av øya ( se adferdsreglene for telting )",
+            "Turstier",
+            "Kioskbygg, åpent 7 dager i uken fra kl. 12:00-18:00.",
+            "Dobbel volleyballbane",
+            "Stor gresslette for piknik og ballspill",
+            "Naturistområde på sørsiden av Søndre Langøyene",
+            "Tilrettelagte plasser for grilling – NB! Bål er ikke tillatt"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Langøya",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "lauvtjern",
+      "name": "Lauvtjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/lauvtjern/",
+      "location": {
+        "lat": 59.91177,
+        "lng": 10.89579
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "lille-tryvann",
+      "name": "Lille Tryvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/lille-tryvann/",
+      "location": {
+        "lat": 59.99944,
+        "lng": 10.66593
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "lutvann",
+      "name": "Lutvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/lutvann/",
+      "location": {
+        "lat": 59.9114026230393,
+        "lng": 10.876777996560625
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 HC-toalett (tørrklosett)",
+            "Urinal",
+            "Godkjent ildsted",
+            "Delvis tilrettelagt for bevegelseshemmede med baderampe og toalett"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Lutvann",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 18,
+        "measuredAt": "2026-06-22T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "nedre-blanksjo",
+      "name": "Nedre Blanksjø",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/nedre-blanksjo/",
+      "location": {
+        "lat": 59.98149,
+        "lng": 10.73823
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "nordstrand-bad",
+      "name": "Nordstrand bad",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/nordstrand-bad/",
+      "location": {
+        "lat": 59.86876,
+        "lng": 10.78204
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Toalettene er åpne i sommersesongen, ca. 15. mai til 15.9. september. 1 toalett (utedo)",
+            "1 HC-toalett (utedo)"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Nordstrand bad",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "nydalsdammen",
+      "name": "Nydalsdammen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/nydalsdammen/",
+      "location": {
+        "lat": 59.9572011,
+        "lng": 10.7658593
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Nydalsdammen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-24T00:00:00+02:00"
+      }
+    },
+    {
+      "id": "noklevann",
+      "name": "Nøklevann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/noklevann/",
+      "location": {
+        "lat": 59.87605,
+        "lng": 10.87718
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 HC-toalett (åpent mai-oktober)",
+            "Liten sandstrand",
+            "Stupebrett og badebrygge",
+            "Godkjent ildsted",
+            "Bord og benker",
+            "Badeplassen oppfyller kravene til universell tilgjengelighet (tilpasset alle) og har blant annet parkering (Haraløkka eller Rustadsaga utfartssparkering), toalett og baderampe for bevegelseshemmede."
+          ]
+        }
+      ],
+      "waterQuality": null
+    },
+    {
+      "id": "operastranda",
+      "name": "Operastranda",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/operastranda/",
+      "location": {
+        "lat": 59.906325,
+        "lng": 10.752978
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Saltvann",
+            "Toaletter: Herretoalett",
+            "Dametoalett",
+            "HC-toalett"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Operastranda",
+        "rating": "poor",
+        "label": "Dårlig",
+        "description": "Badevannskvaliteten er dårlig",
+        "measuredAt": "2026-06-18T00:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 20.2,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "paradisbukta",
+      "name": "Paradisbukta",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/paradisbukta/",
+      "location": {
+        "lat": 59.90144,
+        "lng": 10.66579
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Paradisbukta",
+        "rating": "poor",
+        "label": "Dårlig",
+        "description": "Badevannskvaliteten er dårlig",
+        "measuredAt": "2026-05-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "rambergoya",
+      "name": "Rambergøya",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/rambergoya/",
+      "location": {
+        "lat": 59.879270044058856,
+        "lng": 10.716903841210808
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Rambergøya",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "rundtjern",
+      "name": "Rundtjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/rundtjern/",
+      "location": {
+        "lat": 59.90299,
+        "lng": 10.87001
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "rundvannet",
+      "name": "Rundvannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/rundvannet/",
+      "location": {
+        "lat": 59.85144,
+        "lng": 10.87596
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "skinnerbukta-malmoya",
+      "name": "Skinnerbukta (Malmøya)",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/skinnerbukta-malmoya/",
+      "location": {
+        "lat": 59.86797,
+        "lng": 10.75794
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Skinnerbukta",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "skjennungen",
+      "name": "Skjennungen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/skjennungen/",
+      "location": {
+        "lat": 60.00409,
+        "lng": 10.68417
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "skomakertjern",
+      "name": "Skomakertjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/skomakertjern/",
+      "location": {
+        "lat": 59.99734,
+        "lng": 10.66392
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "skraperudtjern",
+      "name": "Skraperudtjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/skraperudtjern/",
+      "location": {
+        "lat": 59.86929,
+        "lng": 10.8512
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "6 toaletter (tørrklosetter)",
+            "Badebrygger",
+            "Markastuene Rustadsaga og Skullerudstua ligger ca. 5 minutter gange fra Skraperudtjern"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Skraperudtjern",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "smalvannet",
+      "name": "Smalvannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/smalvannet/",
+      "location": {
+        "lat": 59.85298,
+        "lng": 10.88199
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "sognsvann",
+      "name": "Sognsvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/sognsvann/",
+      "location": {
+        "lat": 59.97499,
+        "lng": 10.72891
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "6 toaletter (tørrklosetter)",
+            "4 HC-toaletter (tørrklosetter)",
+            "Urinal",
+            "Kiosk",
+            "Tre badebrygger",
+            "Godkjente ildsteder",
+            "Sandvolleyballbane i sørvest",
+            "Badeplassen oppfyller kravene til universell tilgjengelighet (tilpasset alle) og har blant annet trasé rundt vannet, toalett, fiskebrygge, bord/benker og baderamper."
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Sognsvann",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "solbergvannet",
+      "name": "Solbergvannet",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/solbergvannet/",
+      "location": {
+        "lat": 59.89949,
+        "lng": 10.86619
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "sollerudstranda",
+      "name": "Sollerudstranda",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/sollerudstranda/",
+      "location": {
+        "lat": 59.91252733360832,
+        "lng": 10.64712894240202
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Sollerudstranda",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "solvikbukta-pa-malmoya",
+      "name": "Solvikbukta på Malmøya",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/solvikbukta-pa-malmoya/",
+      "location": {
+        "lat": 59.86467840229864,
+        "lng": 10.749715717769606
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 mobilt toalett (vannklosett) på parkeringsplassen ved Skinnerbukta i sommersesongen, ca. 15. mai 15. september, håndvask mulig.",
+            "HC-toalett på campingplass rett ved.",
+            "Badebrygge",
+            "Drikkevannsanlegg",
+            "Dusj",
+            "Bord og benker",
+            "Butikk og kafé som tilhører Solvik camping"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Solvik",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 19,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "steinbruvann",
+      "name": "Steinbruvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/steinbruvann/",
+      "location": {
+        "lat": 59.97739,
+        "lng": 10.88257
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "6 toaletter (tørrklosetter)",
+            "Urinal",
+            "Godkjente ildsteder",
+            "Mange badebrygger",
+            "Demning i sørenden med stige ned i vannet",
+            "Bord og benker"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Steinbruvann",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "stensrudtjern",
+      "name": "Stensrudtjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/stensrudtjern/",
+      "location": {
+        "lat": 59.82156,
+        "lng": 10.87104
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "3 Benkebord og flere benker",
+            "2 Fastgriller",
+            "Flytebrygge ute i vannet",
+            "2 toaletter i sommersesongen (15. mai til 15. september)",
+            "Avfallsbeholdere",
+            "Sykkelparkering"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Stensrudtjern",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 22,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "store-tryvann",
+      "name": "Store Tryvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/store-tryvann/",
+      "location": {
+        "lat": 59.99739,
+        "lng": 10.6702
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "store-aklungen",
+      "name": "Store Åklungen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/store-aklungen/",
+      "location": {
+        "lat": 60.00149,
+        "lng": 10.72091
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "stromsdammen",
+      "name": "Strømsdammen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/stromsdammen/",
+      "location": {
+        "lat": 59.98173,
+        "lng": 10.64756
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Strømsdammen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "svartkulp",
+      "name": "Svartkulp",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/svartkulp/",
+      "location": {
+        "lat": 59.84433,
+        "lng": 10.89042
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "svarttjern",
+      "name": "Svarttjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/svarttjern/",
+      "location": {
+        "lat": 59.99334,
+        "lng": 10.7063
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 toalett og 1 HC-toalett er åpent sommersesongen (ca. 15.5.–15.9.)",
+            "Gressletter og (kunstige) badestrender",
+            "Granittrapper langs vannet",
+            "Bord og benker",
+            "Lekeplass",
+            "Boccabane",
+            "Badeplassen tilfredsstiller kravene til universell tilgjengelighet (tilpasset alle) og har blant annet tilpasset toalett, baderampe, lekeplass og gangvei for bevegelseshemmede."
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Svarttjern",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 18.5,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "saterstranda",
+      "name": "Sæterstranda",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/saterstranda/",
+      "location": {
+        "lat": 59.8619176,
+        "lng": 10.7835236
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "sorenga-sjobad",
+      "name": "Sørenga sjøbad",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/sorenga-sjobad/",
+      "location": {
+        "lat": 59.90118,
+        "lng": 10.75123
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Åpningstider, klokken 07:00–22:00",
+            "Toaletter",
+            "2 HC-toaletter og mange vanlige toaletter. åpent kl. 07:00-22:00 i badesesongen (1. april–14. oktober)",
+            "åpent kl. 07:00-16:00 i vintersesongen (15. oktober–31. mars)",
+            "drikkevann tilgjengelig inne på toalettene"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Sørenga, basseng",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-02T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "tjuvholmen",
+      "name": "Tjuvholmen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/tjuvholmen/",
+      "location": {
+        "lat": 59.906035995953715,
+        "lng": 10.719489515460866
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Tjuvholmen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "trollvann",
+      "name": "Trollvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/trollvann/",
+      "location": {
+        "lat": 59.84844,
+        "lng": 10.8871
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 HC-toalett (tørrklosett) er åpent hele året",
+            "To badebrygger",
+            "Godkjent ildsted",
+            "Bord og benker",
+            "Trollvannstua ligger like ved"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Trollvann",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "tommerholtjern",
+      "name": "Tømmerholtjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/tommerholtjern/",
+      "location": {
+        "lat": 59.82787,
+        "lng": 10.92779
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "ulsrudvann",
+      "name": "Ulsrudvann",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/ulsrudvann/",
+      "location": {
+        "lat": 59.88817,
+        "lng": 10.86506
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 HC-toalett (tørrklosett) er åpent hele året",
+            "Sandstrand",
+            "Badebrygge",
+            "Godkjent ildsted"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Ulsrudvann",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "ulvoya",
+      "name": "Ulvøya",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/ulvoya/",
+      "location": {
+        "lat": 59.867090430204996,
+        "lng": 10.770936740963627
+      },
+      "facilities": [],
+      "waterQuality": {
+        "point": "Ulvøya",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "vesletjern",
+      "name": "Vesletjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/vesletjern/",
+      "location": {
+        "lat": 59.95963,
+        "lng": 10.86084
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "1 HC-toalett (tørrklosett) er åpent hele året",
+            "Benker",
+            "Godkjent ildsted",
+            "Natursti",
+            "Badeplassen er delvis tilrettelagt for bevegelseshemmede og har blant annet toalett og trasé"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Vesletjern, Lillomarka",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      }
+    },
+    {
+      "id": "ovresetertjern",
+      "name": "Øvresetertjern",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/ovresetertjern/",
+      "location": {
+        "lat": 59.98276,
+        "lng": 10.67181
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "oyungen",
+      "name": "Øyungen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/oyungen/",
+      "location": {
+        "lat": 60.04133,
+        "lng": 10.74437
+      },
+      "facilities": [],
+      "waterQuality": null
+    },
+    {
+      "id": "arvolldammen",
+      "name": "Årvolldammen",
+      "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/arvolldammen/",
+      "location": {
+        "lat": 59.94774502093652,
+        "lng": 10.820170829545635
+      },
+      "facilities": [
+        {
+          "heading": "Fasiliteter",
+          "items": [
+            "Toaletter og HC-toalett",
+            "To fotballbaner",
+            "En volleyballbane",
+            "To fastgriller",
+            "Dusj",
+            "Drikkefontene",
+            "Benker, bord og hengekøyer",
+            "Stor lekeplass",
+            "Treningsapparater til egentrening",
+            "Badebinge for HC-brukere",
+            "Universelt utformet rampe fra badebinge til HC-toaletter",
+            "Årvolldammen har fast, asfaltert bunn"
+          ]
+        }
+      ],
+      "waterQuality": {
+        "point": "Årvolldammen",
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-06-03T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 22,
+        "measuredAt": "2026-06-26T02:00:00+02:00"
+      }
+    }
+  ]
+}

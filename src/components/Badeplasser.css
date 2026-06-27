@@ -1,0 +1,101 @@
+/* Keep the popup close button in the top-right corner of the popup. Leaflet
+   only positions it through a `.leaflet-container`-scoped rule; this unscoped
+   fallback ensures it never drops into normal flow down by the tip. */
+.leaflet-popup-close-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+}
+
+/* Water-quality map pin (a colored SVG teardrop). */
+.bq-marker {
+  background: transparent;
+  border: none;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.35));
+}
+
+/* Legend overlay */
+.bq-legend {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 6px;
+  padding: 8px 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.bq-legend strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.bq-legend__item {
+  display: flex;
+  align-items: center;
+}
+
+.bq-legend__dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  flex: 0 0 auto;
+}
+
+/* Popup */
+.beach-popup {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.beach-popup__title {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.beach-popup__quality {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+
+.beach-popup__badge {
+  align-self: flex-start;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 13px;
+}
+
+.beach-popup__measured {
+  color: #555;
+  font-size: 11px;
+}
+
+.beach-popup__description {
+  margin: 4px 0;
+}
+
+.beach-popup__temperature {
+  margin: 4px 0;
+}
+
+.beach-popup__facilities h4 {
+  margin: 8px 0 2px;
+  font-size: 13px;
+}
+
+.beach-popup__facilities h5 {
+  margin: 6px 0 2px;
+  font-size: 12px;
+  color: #444;
+}
+
+.beach-popup__facilities ul {
+  margin: 0 0 4px;
+  padding-left: 18px;
+}
