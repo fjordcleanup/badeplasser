@@ -1,4 +1,5 @@
 import { formatDistanceToNowStrict } from 'date-fns'
+import { nb as nbLocale } from 'date-fns/locale'
 import { HistoryIcon } from 'lucide-preact'
 import { useEffect, useState } from 'preact/hooks'
 
@@ -49,7 +50,7 @@ export const Ago = ({
 
 export const distance = (to: Date, withSeconds?: true) =>
 	(withSeconds ?? false)
-		? formatDistanceToNowStrict(to)
+		? formatDistanceToNowStrict(to, { locale: nbLocale })
 		: Date.now() - to.getTime() < 60 * 1000
 			? '<1 minute'
-			: formatDistanceToNowStrict(to)
+			: formatDistanceToNowStrict(to, { locale: nbLocale })

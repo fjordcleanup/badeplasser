@@ -1,6 +1,7 @@
 import { QUALITY_PRESENTATION, ratingOf } from '#badeplasser/quality.ts'
 import type { Badeplass } from '#badeplasser/schema.ts'
 import { formatDistanceToNowStrict } from 'date-fns'
+import { nb as nbLocale } from 'date-fns/locale'
 
 const exactDate = new Intl.DateTimeFormat('nb-NO', { dateStyle: 'long' })
 
@@ -9,7 +10,7 @@ const Measured = ({ iso }: { iso: string }) => {
 	const date = new Date(iso)
 	return (
 		<time dateTime={iso} title={exactDate.format(date)}>
-			{formatDistanceToNowStrict(date, { addSuffix: true })}
+			{formatDistanceToNowStrict(date, { addSuffix: true, locale: nbLocale })}
 		</time>
 	)
 }
