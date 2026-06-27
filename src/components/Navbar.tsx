@@ -31,7 +31,7 @@ const Nav = () => {
 						class="ms-2 d-flex align-items-center"
 						target="_blank"
 					>
-						<Shield class="me-2" /> 
+						<Shield class="me-2" />
 						Fjord CleanUP
 					</a>
 				</div>
@@ -57,7 +57,12 @@ const Nav = () => {
 						<a href="/about" class="mobile-menu-item" onClick={closeMobileMenu}>
 							<HelpCircle /> About
 						</a>
-						<a href="https://fjordcleanup.no" class="mobile-menu-item" onClick={closeMobileMenu} target="_blank">
+						<a
+							href="https://fjordcleanup.no"
+							class="mobile-menu-item"
+							onClick={closeMobileMenu}
+							target="_blank"
+						>
 							<Shield /> Fjord CleanUP
 						</a>
 					</div>

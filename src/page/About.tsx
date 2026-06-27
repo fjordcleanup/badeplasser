@@ -28,7 +28,9 @@ export const About = () => (
 						<h2>Contact</h2>
 						<p>
 							If you have any question, feel free to reach out to us at{' '}
-							<a href="mailto:badeplasser@fjordcleanup.org">badeplasser@fjordcleanup.org</a>
+							<a href="mailto:badeplasser@fjordcleanup.org">
+								badeplasser@fjordcleanup.org
+							</a>
 							.
 						</p>
 					</div>
