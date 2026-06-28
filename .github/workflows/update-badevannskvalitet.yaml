@@ -24,6 +24,9 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_CREATE_PR }}
+
 jobs:
   update:
     runs-on: ubuntu-latest
