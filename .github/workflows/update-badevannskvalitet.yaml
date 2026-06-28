@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN_CREATE_PR }}
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_CREATE_PR }}
 
 jobs:
   update:
