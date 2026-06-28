@@ -50,6 +50,7 @@ const main = async (): Promise<void> => {
 	)
 
 	let updated = 0
+	let changed = 0
 	let failed = 0
 
 	await mapPool(
@@ -57,11 +58,19 @@ const main = async (): Promise<void> => {
 		async (beach, i) => {
 			try {
 				const detail = parseDetailPage(await fetchDetail(beach.url))
-				beach.waterQuality = summarize(detail.measurements)
-				if (detail.temperature !== undefined)
-					beach.temperature = detail.temperature
+				const newQuality = summarize(detail.measurements)
+				const newTemp = detail.temperature
+
+				const qualityChanged =
+					JSON.stringify(beach.waterQuality) !== JSON.stringify(newQuality)
+				const tempChanged = beach.temperature !== newTemp
+
+				beach.waterQuality = newQuality
+				if (newTemp !== undefined) beach.temperature = newTemp
 				else delete beach.temperature
+
 				updated++
+				if (qualityChanged || tempChanged) changed++
 				console.log(
 					`  [${i + 1}/${dataset.badeplasser.length}] ${beach.name} — ` +
 						`${beach.waterQuality?.label ?? 'måles ikke'}`,
@@ -87,6 +96,13 @@ const main = async (): Promise<void> => {
 		// Signal failure so a scheduled run surfaces the problem instead of
 		// looking like a successful no-op refresh.
 		process.exitCode = 1
+		return
+	}
+
+	if (changed === 0) {
+		console.log(
+			`\nNo measurements changed (${updated} refreshed${failed > 0 ? `, ${failed} failed` : ''}); leaving ${FILE} unchanged.`,
+		)
 		return
 	}
 
