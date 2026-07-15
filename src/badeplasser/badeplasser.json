@@ -1,6 +1,6 @@
 {
   "source": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/",
-  "updated": "2026-07-14T07:15:58.866Z",
+  "updated": "2026-07-15T07:20:07.682Z",
   "badeplasser": [
     {
       "id": "askevannet",
@@ -115,8 +115,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -145,8 +145,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -434,8 +434,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -510,8 +510,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -573,8 +573,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -721,8 +721,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -1021,8 +1021,8 @@
         "measuredAt": null
       },
       "temperature": {
-        "celsius": 20,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 22,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
@@ -1083,8 +1083,8 @@
         "measuredAt": "2026-07-07T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 22,
-        "measuredAt": "2026-07-10T02:00:00+02:00"
+        "celsius": 23.5,
+        "measuredAt": "2026-07-13T02:00:00+02:00"
       }
     },
     {
