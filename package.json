@@ -42,7 +42,7 @@
     "@commitlint/config-conventional": "21.2.0",
     "@preact/preset-vite": "2.10.6",
     "@types/leaflet": "1.9.21",
-    "@types/node": "26.1.1",
+    "@types/node": "26.1.2",
     "@typescript/native": "npm:typescript@7.0.2",
     "commitlint": "21.2.1",
     "glob": "13.0.6",
