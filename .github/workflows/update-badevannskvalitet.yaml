@@ -12,8 +12,7 @@ name: Update Badevannskvalitet
 
 on:
   schedule:
-    # 05:00 UTC (07:00 Oslo) every day, May–September.
-    - cron: "0 5 * 5-9 *"
+    - cron: "0 18 * MAY-SEP MON-FRI"
   workflow_dispatch:
 
 permissions:
