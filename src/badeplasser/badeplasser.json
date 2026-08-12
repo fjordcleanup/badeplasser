@@ -1,6 +1,6 @@
 {
   "source": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/",
-  "updated": "2026-08-11T18:56:43.431Z",
+  "updated": "2026-08-12T18:56:03.566Z",
   "badeplasser": [
     {
       "id": "askevannet",
@@ -116,7 +116,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -146,7 +146,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -201,7 +201,7 @@
       },
       "temperature": {
         "celsius": 16,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -319,8 +319,8 @@
         "measuredAt": "2026-08-04T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "celsius": 15,
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -404,8 +404,8 @@
         "measuredAt": "2026-08-04T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 17.5,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "celsius": 16.5,
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -435,7 +435,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -511,7 +511,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -574,7 +574,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -712,7 +712,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -977,8 +977,8 @@
         "measuredAt": "2026-08-04T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 17.5,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "celsius": 16.5,
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -1012,7 +1012,7 @@
       },
       "temperature": {
         "celsius": 16.5,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
@@ -1157,8 +1157,8 @@
         "measuredAt": "2026-08-04T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 15.6,
-        "measuredAt": "2026-08-10T02:00:00+02:00"
+        "celsius": 15.2,
+        "measuredAt": "2026-08-12T02:00:00+02:00"
       }
     },
     {
