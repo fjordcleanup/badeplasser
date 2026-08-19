@@ -1,6 +1,6 @@
 {
   "source": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/",
-  "updated": "2026-08-18T18:30:58.680Z",
+  "updated": "2026-08-19T18:27:42.649Z",
   "badeplasser": [
     {
       "id": "askevannet",
@@ -115,8 +115,8 @@
         "measuredAt": "2026-08-10T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 17.5,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -145,8 +145,8 @@
         "measuredAt": "2026-08-10T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 17.5,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -405,7 +405,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -434,8 +434,8 @@
         "measuredAt": "2026-08-11T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 17.5,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -510,8 +510,8 @@
         "measuredAt": "2026-08-10T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 17.5,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -573,8 +573,8 @@
         "measuredAt": "2026-08-10T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 17.5,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 17,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -711,8 +711,8 @@
         "measuredAt": "2026-08-06T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-14T02:00:00+02:00"
+        "celsius": 17.5,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -857,6 +857,10 @@
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
         "measuredAt": "2026-07-28T02:00:00+02:00"
+      },
+      "temperature": {
+        "celsius": 17,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -978,7 +982,7 @@
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -1157,8 +1161,8 @@
         "measuredAt": "2026-08-11T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 16.5,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 15.1,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     },
     {
@@ -1389,8 +1393,8 @@
         "measuredAt": "2026-08-11T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 17.5,
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "celsius": 16,
+        "measuredAt": "2026-08-19T02:00:00+02:00"
       }
     }
   ]
