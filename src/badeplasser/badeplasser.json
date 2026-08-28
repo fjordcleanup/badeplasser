@@ -1,6 +1,6 @@
 {
   "source": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/badeplasser/",
-  "updated": "2026-08-26T19:42:35.994Z",
+  "updated": "2026-08-28T02:00:29.722Z",
   "badeplasser": [
     {
       "id": "askevannet",
@@ -87,7 +87,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -112,11 +112,11 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-24T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-24T02:00:00+02:00"
+        "measuredAt": "2026-08-26T02:00:00+02:00"
       }
     },
     {
@@ -142,7 +142,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-24T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
@@ -197,7 +197,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
@@ -218,7 +218,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 16.2,
@@ -261,7 +261,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -299,7 +299,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -316,7 +316,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-19T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 16,
@@ -371,7 +371,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -428,10 +428,10 @@
       ],
       "waterQuality": {
         "point": "Hvervenbukta",
-        "rating": "poor",
-        "label": "Dårlig",
-        "description": "Badevannskvaliteten er dårlig",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "rating": "good",
+        "label": "God",
+        "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
@@ -452,7 +452,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -507,7 +507,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-24T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
@@ -570,11 +570,11 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-24T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
-        "measuredAt": "2026-08-24T02:00:00+02:00"
+        "measuredAt": "2026-08-26T02:00:00+02:00"
       }
     },
     {
@@ -708,11 +708,11 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-24T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-24T02:00:00+02:00"
+        "celsius": 17,
+        "measuredAt": "2026-08-26T02:00:00+02:00"
       }
     },
     {
@@ -800,7 +800,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -978,7 +978,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 17,
@@ -1015,8 +1015,8 @@
         "measuredAt": "2026-07-28T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-24T02:00:00+02:00"
+        "celsius": 17,
+        "measuredAt": "2026-08-26T02:00:00+02:00"
       }
     },
     {
@@ -1074,11 +1074,11 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
-        "celsius": 18,
-        "measuredAt": "2026-08-24T02:00:00+02:00"
+        "celsius": 21,
+        "measuredAt": "2026-08-26T02:00:00+02:00"
       }
     },
     {
@@ -1158,7 +1158,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       },
       "temperature": {
         "celsius": 15.4,
@@ -1201,7 +1201,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-17T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -1218,7 +1218,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-08-18T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
@@ -1305,7 +1305,7 @@
         "rating": "good",
         "label": "God",
         "description": "Badevannskvaliteten er stort sett bra, men det kan forekomme perioder med redusert kvalitet.",
-        "measuredAt": "2026-07-28T02:00:00+02:00"
+        "measuredAt": "2026-08-25T02:00:00+02:00"
       }
     },
     {
