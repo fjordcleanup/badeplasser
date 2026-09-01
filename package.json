@@ -51,7 +51,7 @@
     "husky": "9.1.7",
     "lint-staged": "17.4.1",
     "typescript": "npm:@typescript/typescript6@6.0.2",
-    "vite": "8.2.1"
+    "vite": "8.2.2"
   },
   "engines": {
     "node": ">=24.18.1 <25",
