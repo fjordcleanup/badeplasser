@@ -31,7 +31,7 @@
     "lucide-preact": "1.37.0",
     "preact": "10.29.8",
     "preact-router": "4.1.2",
-    "proj4": "2.21.0",
+    "proj4": "2.22.0",
     "ulidx": "2.4.1"
   },
   "devDependencies": {
