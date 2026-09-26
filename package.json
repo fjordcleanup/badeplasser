@@ -38,7 +38,7 @@
     "@babel/plugin-syntax-import-assertions": "7.29.7",
     "@bifravst/cloudformation-helpers": "10.0.1",
     "@bifravst/eslint-config-typescript": "8.0.6",
-    "@bifravst/prettier-config": "2.0.2",
+    "@bifravst/prettier-config": "2.0.3",
     "@commitlint/config-conventional": "21.2.3",
     "@preact/preset-vite": "2.10.6",
     "@types/leaflet": "1.9.22",
