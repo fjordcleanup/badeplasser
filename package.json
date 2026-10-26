@@ -29,7 +29,7 @@
     "date-fns": "4.4.0",
     "leaflet": "1.9.4",
     "lucide-preact": "1.61.0",
-    "preact": "11.0.1",
+    "preact": "11.0.2",
     "preact-router": "4.1.2",
     "proj4": "2.22.0",
     "ulidx": "2.4.1"
