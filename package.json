@@ -28,7 +28,7 @@
     "classnames": "2.5.1",
     "date-fns": "4.4.0",
     "leaflet": "1.9.4",
-    "lucide-preact": "1.62.0",
+    "lucide-preact": "1.63.0",
     "preact": "11.1.0",
     "preact-router": "4.1.2",
     "proj4": "2.22.0",
