@@ -762,12 +762,7 @@
       "facilities": [
         {
           "heading": "Fasiliteter",
-          "items": [
-            "Saltvann",
-            "Toaletter: Herretoalett",
-            "Dametoalett",
-            "HC-toalett"
-          ]
+          "items": ["Saltvann", "Toaletter: Herretoalett", "Dametoalett", "HC-toalett"]
         }
       ],
       "waterQuality": {

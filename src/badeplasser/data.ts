@@ -1,5 +1,5 @@
-import dataset from './badeplasser.json' with { type: 'json' }
-import type { Badeplass, Dataset } from './schema.ts'
+import dataset from "./badeplasser.json" with { type: "json" }
+import type { Badeplass, Dataset } from "./schema.ts"
 
 // The dataset is validated against the schema when it is generated
 // (see scripts/generate-badeplasser.ts), so we can trust its shape here.

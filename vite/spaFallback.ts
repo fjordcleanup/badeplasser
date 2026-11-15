@@ -1,6 +1,6 @@
-import { copyFileSync, existsSync } from 'node:fs'
-import path from 'node:path'
-import type { Plugin, ResolvedConfig } from 'vite'
+import { copyFileSync, existsSync } from "node:fs"
+import path from "node:path"
+import type { Plugin, ResolvedConfig } from "vite"
 
 /**
  * The app uses history-based routing (`/`, `/map`, `/about`), but GitHub Pages
@@ -11,19 +11,19 @@ import type { Plugin, ResolvedConfig } from 'vite'
  * `window.location`.
  */
 export const spaFallback = (): Plugin => {
-	let outDir = 'build'
-	let root = process.cwd()
-	return {
-		name: 'spa-fallback',
-		apply: 'build',
-		configResolved: (config: ResolvedConfig): void => {
-			outDir = config.build.outDir
-			root = config.root
-		},
-		closeBundle: (): void => {
-			const index = path.resolve(root, outDir, 'index.html')
-			if (!existsSync(index)) return
-			copyFileSync(index, path.resolve(root, outDir, '404.html'))
-		},
-	}
+  let outDir = "build"
+  let root = process.cwd()
+  return {
+    name: "spa-fallback",
+    apply: "build",
+    configResolved: (config: ResolvedConfig): void => {
+      outDir = config.build.outDir
+      root = config.root
+    },
+    closeBundle: (): void => {
+      const index = path.resolve(root, outDir, "index.html")
+      if (!existsSync(index)) return
+      copyFileSync(index, path.resolve(root, outDir, "404.html"))
+    },
+  }
 }

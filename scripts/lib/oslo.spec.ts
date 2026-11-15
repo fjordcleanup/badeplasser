@@ -1,19 +1,19 @@
-import assert from 'node:assert/strict'
-import { describe, it } from 'node:test'
-import { parseDetailPage, ratingFromText, summarize } from './oslo.ts'
+import assert from "node:assert/strict"
+import { describe, it } from "node:test"
+import { parseDetailPage, ratingFromText, summarize } from "./oslo.ts"
 
-void describe('ratingFromText', () => {
-	void it('maps the leading-word wording', () => {
-		assert.equal(ratingFromText('Utmerket: stabilt bra'), 'excellent')
-		assert.equal(ratingFromText('God: stort sett bra'), 'good')
-		assert.equal(ratingFromText('Tilfredsstillende: …'), 'fair')
-	})
-	void it('maps the full-sentence wording', () => {
-		assert.equal(ratingFromText('Badevannskvaliteten er dårlig'), 'poor')
-	})
-	void it('detects "not measured"', () => {
-		assert.equal(ratingFromText('Vi måler ikke kvalitet her'), 'notMeasured')
-	})
+void describe("ratingFromText", () => {
+  void it("maps the leading-word wording", () => {
+    assert.equal(ratingFromText("Utmerket: stabilt bra"), "excellent")
+    assert.equal(ratingFromText("God: stort sett bra"), "good")
+    assert.equal(ratingFromText("Tilfredsstillende: …"), "fair")
+  })
+  void it("maps the full-sentence wording", () => {
+    assert.equal(ratingFromText("Badevannskvaliteten er dårlig"), "poor")
+  })
+  void it('detects "not measured"', () => {
+    assert.equal(ratingFromText("Vi måler ikke kvalitet her"), "notMeasured")
+  })
 })
 
 // A representative slice of a detail page covering every shape the parser meets:
@@ -35,43 +35,43 @@ const FIXTURE = `
 <h2>Kontakt</h2>
 `
 
-void describe('parseDetailPage', () => {
-	const detail = parseDetailPage(FIXTURE)
+void describe("parseDetailPage", () => {
+  const detail = parseDetailPage(FIXTURE)
 
-	void it('parses each measurement point with rating and date', () => {
-		assert.equal(detail.measurements.length, 2)
-		assert.deepEqual(detail.measurements[0], {
-			point: 'Testvika, ved brygga',
-			rating: 'good',
-			label: 'God',
-			description: 'Badevannskvaliteten er stort sett bra.',
-			measuredAt: '2026-06-20T02:00:00+02:00',
-		})
-		assert.equal(detail.measurements[1]?.rating, 'notMeasured')
-		assert.equal(detail.measurements[1]?.measuredAt, null)
-	})
+  void it("parses each measurement point with rating and date", () => {
+    assert.equal(detail.measurements.length, 2)
+    assert.deepEqual(detail.measurements[0], {
+      point: "Testvika, ved brygga",
+      rating: "good",
+      label: "God",
+      description: "Badevannskvaliteten er stort sett bra.",
+      measuredAt: "2026-06-20T02:00:00+02:00",
+    })
+    assert.equal(detail.measurements[1]?.rating, "notMeasured")
+    assert.equal(detail.measurements[1]?.measuredAt, null)
+  })
 
-	void it('does not treat the temperature block as a measurement', () => {
-		assert.ok(detail.measurements.every((m) => !m.point.includes('temperatur')))
-	})
+  void it("does not treat the temperature block as a measurement", () => {
+    assert.ok(detail.measurements.every((m) => !m.point.includes("temperatur")))
+  })
 
-	void it('parses the temperature', () => {
-		assert.deepEqual(detail.temperature, {
-			celsius: 18,
-			measuredAt: '2026-06-26T02:00:00+02:00',
-		})
-	})
+  void it("parses the temperature", () => {
+    assert.deepEqual(detail.temperature, {
+      celsius: 18,
+      measuredAt: "2026-06-26T02:00:00+02:00",
+    })
+  })
 
-	void it('parses facilities into sections', () => {
-		assert.deepEqual(detail.facilities, [
-			{ heading: 'Fasiliteter', items: ['Toaletter', '1 HC-toalett'] },
-			{ heading: 'Andre fasiliteter', items: ['Kiosk'] },
-		])
-	})
+  void it("parses facilities into sections", () => {
+    assert.deepEqual(detail.facilities, [
+      { heading: "Fasiliteter", items: ["Toaletter", "1 HC-toalett"] },
+      { heading: "Andre fasiliteter", items: ["Kiosk"] },
+    ])
+  })
 
-	void it('summarizes to the measured point', () => {
-		assert.equal(summarize(detail.measurements)?.point, 'Testvika, ved brygga')
-	})
+  void it("summarizes to the measured point", () => {
+    assert.equal(summarize(detail.measurements)?.point, "Testvika, ved brygga")
+  })
 })
 
 // Spots with a single point use a bare «Badevannskvalitet» heading (no «ved …»)
@@ -86,21 +86,21 @@ const SINGLE_POINT = `
 <span class="ods-sr-only">Utmerket: stabilt bra</span>
 `
 
-void describe('parseDetailPage (single, unnamed point)', () => {
-	const detail = parseDetailPage(SINGLE_POINT)
+void describe("parseDetailPage (single, unnamed point)", () => {
+  const detail = parseDetailPage(SINGLE_POINT)
 
-	void it('parses the bare heading and uses the spot name as the point', () => {
-		assert.equal(detail.measurements.length, 1)
-		assert.deepEqual(detail.measurements[0], {
-			point: 'Nydalsdammen',
-			rating: 'good',
-			label: 'God',
-			description: 'Badevannskvaliteten er stort sett bra.',
-			measuredAt: '2026-06-24T00:00:00+02:00',
-		})
-	})
+  void it("parses the bare heading and uses the spot name as the point", () => {
+    assert.equal(detail.measurements.length, 1)
+    assert.deepEqual(detail.measurements[0], {
+      point: "Nydalsdammen",
+      rating: "good",
+      label: "God",
+      description: "Badevannskvaliteten er stort sett bra.",
+      measuredAt: "2026-06-24T00:00:00+02:00",
+    })
+  })
 
-	void it('ignores the four-year average block', () => {
-		assert.ok(detail.measurements.every((m) => m.rating !== 'excellent'))
-	})
+  void it("ignores the four-year average block", () => {
+    assert.ok(detail.measurements.every((m) => m.rating !== "excellent"))
+  })
 })
