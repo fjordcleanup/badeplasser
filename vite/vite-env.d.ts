@@ -6,7 +6,7 @@ declare const HOMEPAGE: string
 declare const BUILD_TIME: string
 declare const LEAFLET_VERSION: string
 
-// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
+// oxlint-disable-next-line typescript/consistent-type-definitions
 interface ImportMeta {
-	readonly env: ImportMetaEnv
+  readonly env: ImportMetaEnv
 }
